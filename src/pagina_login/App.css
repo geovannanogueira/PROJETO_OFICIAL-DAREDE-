@@ -1,0 +1,154 @@
+/* header{
+    display: flex;
+    justify-content: left;
+}
+
+.logo{
+    height: 100%;
+    width: 35%;
+    position: absolute;
+}
+
+form{
+    display: flex;
+    justify-content: right;
+    background-color: #f1f1f1;
+    margin-left: 36%;
+    /* margin-top: 5%; */
+    /* height: 100%;
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+
+.pergunta{
+    font-size: 1em;
+    color: black;
+}
+
+.Link{
+    text-decoration: none;
+    color: #0F8C3B;
+}
+
+.btn_login{
+    background-color: #0F8C3B;
+}
+
+.EMILIA{
+    color: #fff;
+}
+
+input{
+    background-color: #e1e1e1;
+    color: #f2f2f2;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 500px;
+    width: 90%;
+    margin: auto;
+    height: 100%;
+}
+
+.login {
+    display: flex;
+    height: 100vh;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.login__logo {
+    width: 45%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login__logo img {
+    width: 80%;
+    height: auto;
+    text-align: center;
+}
+
+.login__content {
+    padding: 20px;
+    background-color: #ede2e2;
+    width: 65%;
+}
+
+.login__content-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    height: 100%;
+}
+
+.login__content-inner h2 {
+    font-size: 30px;
+    color: #2c2b2b;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    -webkit-text-stroke: thin;
+    -webkit-text-stroke-color: black;
+    margin: 0px auto 30px;
+}
+
+form.login__content-form {
+    display: flex;
+    flex-flow: column;
+    width: 70%;
+}
+
+.form__campo {
+    background-color: #b8b5b5;
+    border: 1px #b8b5b5 solid;
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px;
+    color: #000;
+    font-size: 16px;
+    border-radius: 2px;
+}
+
+.form__campo::placeholder {
+    font-size: 14px;
+}
+
+button.btn.btn-submit {
+    padding: 10px;
+    border: 1px #0F8C3B solid;
+    background-color: #0F8C3B;
+    width: 100%;
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 20px 0 20px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+form.login__content-form p {
+    font-size: 14px;
+    font-family: 'roboto';
+    text-align: center;
+    color: black;
+}
+
+a.link-cadastre {
+    color: #0F8C3B;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 1em;
+}
