@@ -117,12 +117,12 @@ export default class App extends React.Component {
                                 <i className="fas fa-search"></i>
                             </div>
                             <div class="metade">
-                                <input type="text" />
-                                <input type="text" />
+                                <input type="text" placeholder="Data"/>
+                                <input type="text" placeholder="Valor"/>
                             </div>
                             <div class="metade">
-                                <input type="text" />
-                                <input type="text" />
+                                <input type="text" placeholder="Empresa"/>
+                                <input type="text" placeholder="Serviço"/>
                             </div>
                         </div>
                     </aside>
