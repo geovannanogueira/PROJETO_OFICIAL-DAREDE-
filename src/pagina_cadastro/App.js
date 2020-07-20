@@ -114,7 +114,7 @@ export default class Cadastrar extends React.Component {
                                     <div className="robo">
 
                                     </div>
-                                    <button className="btn btn-submit">Cadastar</button>
+                                    <button className="btn btn-submit">Cadastrar</button>
                                     <p>Já possui conta?<a className="link-login" href="/">&nbsp;Login</a></p>
                                 </form>
                             </div>
